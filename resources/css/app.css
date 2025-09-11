@@ -1,0 +1,34 @@
+/* Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #8B7355;
+    --secondary-color: #F5F3F0;
+    --accent-color: #D4AF37;
+    --text-dark: #2C2C2C;
+    --text-muted: #8E8E8E;
+    --beige-light: #FAF8F5;
+    --cream: #FFF9F5;
+    --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    --font-serif: 'Playfair Display', serif;
+}
+
+body {
+    font-family: var(--font-sans);
+    line-height: 1.6;
+    color: var(--text-dark);
+    background-color: #ffffff;
+}
+
+/* Utility Classes */
+.font-serif {
+    font-family: var(--font-serif) !important;
+}
+
+.text-muted-custom {
+    color: var(--text-muted) !important;
+}
